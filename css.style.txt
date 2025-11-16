@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f3eb;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #d9e6d3;
+}
+
+h1 {
+  color: #4a604f;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.option {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #e9f0e8;
+  border-radius: 10px;
+}
+
+.option h2 {
+  color: #4a604f;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.image-gallery img {
+  max-height: 200px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #4a604f;
+  font-weight: bold;
+}
+
+/* Passwort Overlay */
+.password-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245,243,235,0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.password-box {
+  background-color: #d9e6d3;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+.password-box input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+.password-box button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4a604f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
